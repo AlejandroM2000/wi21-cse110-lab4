@@ -15,4 +15,8 @@
 15.  a) true, 2 is converted to an int b) false, they compare characters position by position and 2 comes after 1 in the lexicogrpahical ordering c)true, '2' becomes an int, not strict equality taht checks for type d) false, strict equality that checks for type and doesnt do type conversions implicitly e)false, true is given the value 1  f)true, boolean(2) is inherently 'true' as it is not 0 or null.
 16.  '==' is not strict in the sense that it doesnt check the type so if we are comparing the string 2 and the int 2, it will return true.  However, '===' does check for what type and does not do an implicit type conversion so thee above example will return false
 17.  Hello! gets printed as 2 is 'true' in the sense that it is not one of thee empty values.  Since this conditional block is in the form of if, else if, and else, once one condition is met, thee others wont be checked for.
-19. 
+19. For this snippet of code, in the for loop of the modifyArray function, the value gets pushed is obtained by calling the doSomething function on the ith element of the array which at that point, it only adds 2 to that value.  IN that same callback function, after the doSomething function is called, that value is multiplied by 2 and this is the value that gets pushed into the newArr which is in then turn, returned after the for loops terminates.  Therefore, our result is [6,8,10]
+20. 1
+    4
+    2
+    3   
