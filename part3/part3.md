@@ -1,0 +1,1 @@
+The bug was that the program was taking the input as strings and concatenating them together.  I would just parseInt() the inputs to get two integers to actually get the sum.
